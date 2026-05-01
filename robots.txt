@@ -1,1 +1,1 @@
-Sitemap: http://www.squyreslab.org/sitemap.xml
+Sitemap: https://www.squyreslab.org/sitemap.xml
