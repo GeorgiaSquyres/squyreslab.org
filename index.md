@@ -1,9 +1,11 @@
 ---
 ---
 
-# GeorgiaSquyres's Website
+# The Squyres Lab
 
-An engaging 1-3 sentence description of your lab.
+We use high-resolution live imaging, quantitative analysis, microfluidics, molecular genetics, mathematical modelling, and more to understand how bacteria build biofilms, and how biofilms shape bacteria.
+
+Under construction - come back soon!
 
 {% include section.html %}
 
