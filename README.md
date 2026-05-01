@@ -5,6 +5,6 @@
 
   # GeorgiaSquyres's Website
 
-  Visit **[georgiasquyres.github.io/squyreslab.org](https://georgiasquyres.github.io/squyreslab.org)** 🚀
+  Visit **[www.squyreslab.org](http://www.squyreslab.org)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
