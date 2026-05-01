@@ -5,6 +5,8 @@
 
 We use high-resolution live imaging, quantitative analysis, microfluidics, molecular genetics, mathematical modelling, and more to understand how bacteria build biofilms, and how biofilms shape bacteria.
 
+Under construction - come back soon!
+
 {% include section.html %}
 
 ## Highlights
