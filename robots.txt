@@ -1,1 +1,1 @@
-Sitemap: https://georgiasquyres.github.io/squyreslab.org/sitemap.xml
+Sitemap: http://www.squyreslab.org/sitemap.xml
