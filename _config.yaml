@@ -1,19 +1,17 @@
 # site properties and page defaults
-title: GeorgiaSquyres
+title: Squyres Lab
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+description: Coming soon!
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@GeorgiaSquyres.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: squyres@caltech.edu
+  orcid: 0000-0002-8717-2897
+  google-scholar: JLyGItIAAAAJ
   github: GeorgiaSquyres
-  twitter: GeorgiaSquyres
-  youtube: GeorgiaSquyres
 
 ### jekyll settings
 
