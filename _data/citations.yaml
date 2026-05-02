@@ -24,8 +24,9 @@
   date: '2025-10-06'
   link: https://doi.org/g97b7n
   orcid: 0000-0002-8717-2897
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://divisions-prod-assets.resources.caltech.edu/root/images/Biofilm-400x400-p12-c08.width-450.gif
 - id: doi:10.1101/2025.09.18.677115
   title: Extracellular matrix chemistry tunes bacterial biofilm metabolism and optimizes
     fitness
@@ -238,15 +239,3 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
-- id: 10.1073/pnas.2514210122
-  title: "Single-cell lysis patterns morphogenesis of eDNA in the matrix of\n    \
-    \        <i>Pseudomonas aeruginosa</i>\n            biofilms"
-  authors:
-  - Georgia R. Squyres
-  - Dianne K. Newman
-  publisher: Proceedings of the National Academy of Sciences
-  date: '2025-10-06'
-  link: https://doi.org/g97b7n
-  image: https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI5MzYwNzYxMzk4YTYzMTU0YTY4ZjNkMjhkYThlMDk1OSIsImV4cCI6MTc3NzcxMjk3OCwia2lkIjoiN2I4MzU4NzQ2ZTViZjQzNDI2OWMxMGU2MDA4NGY1YmIifQ.H7M9h5oFzOIYJN1vn-IHqWF-ZRZlnWKwbze4owpj33E4nKnUOkhtorgWyvdeRjnopDAG4IgXk273P7RqKV1M7LRwDRAjtjl0LCLbr-oR9eXISPJDhniBQV2mcDCRCR1_ev8FuSUDB0BGSc6oWEcmWkmTEupQRF-e8XA0pCtHlD8kXrB1qsSRIp7j4XNQOf7dRdxd3RpfwskEbn_bxATm1B5zxc9I8HKWzTUFKvPxotK_A4QYvX4FIw-LoFP_MLH_qhUzHV40GRMIrpE3hTpfh6f1RPLrdUjge7zTzQQ0Lk6Y4_82pUsdcM1GqTM3QbBG9B18EpCVIW87HgCQYdCS1Q
-  plugin: sources.py
-  file: sources.yaml
