@@ -15,6 +15,6 @@
 <p class="p1"><span class="s1">--- layout: default --- {% capture floatcontent %} {% include portrait.html lookup=page.slug %}</span></p>
 <p class="p1"><span class="s1">{% for link in page.links %} {% assign key = link[0] %} {% assign value = link[1] %} {% include button.html type=key link=value style="bare" %}</span></p>
 <p class="p1"><span class="s1">{% endfor %}</span></p>
-<p class="p1"><span class="s1">{% endcapture %} {% include float.html content=floatcontent %} {{ content }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">{% endcapture %} {% include float.html content=floatcontent %} {{ content }}<span class="Apple-converted-space"> </span> {%- endcapture %}</span></p>
 </body>
 </html>
