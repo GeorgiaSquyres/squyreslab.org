@@ -9,25 +9,22 @@
 
 {% assign type = site.data.types[member.role] %}
 
-{% assign clickable = include.clickable | default: true %}
+{% if include.clickable == nil %}
+  {% assign clickable = true %}
+{% else %}
+  {% assign clickable = include.clickable %}
+{% endif %}
 
 <div class="portrait-wrapper">
-  {% if clickable %}
-    <a
-      {% if page.slug != member.slug %}
-        href="{{ member.url | relative_url | uri_escape }}"
-      {% endif %}
-      class="portrait"
-      data-style="{{ include.style }}"
-      aria-label="{{ member.name | default: "member link" | regex_strip }}"
-    >
-  {% else %}
-    <div
-      class="portrait"
-      data-style="{{ include.style }}"
-      aria-label="{{ member.name | default: "member" | regex_strip }}"
-    >
-  {% endif %}
+  <a
+    {% if clickable and page.slug != member.slug %}
+      href="{{ member.url | relative_url | uri_escape }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+  >
+
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
@@ -58,9 +55,5 @@
       </span>
     {% endif %}
 
-  {% if clickable %}
-    </a>
-  {% else %}
-    </div>
-  {% endif %}
+  </a>
 </div>
