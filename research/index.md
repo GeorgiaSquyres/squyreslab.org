@@ -1,20 +1,13 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="10.1073/pnas.2514210122" style="rich" %}
+You can also see our work on [Research Gate](https://www.researchgate.net/profile/Georgia-Squyres) and [Google Scholar](https://scholar.google.com/citations?user=JLyGItIAAAAJ)
 
 {% include section.html %}
 
