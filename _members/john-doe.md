@@ -1,10 +1,6 @@
 ---
-name: John Doe
+name: You?
 image: images/photo.jpg
-role: phd
-group: alum
-links:
-  github: john-doe
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team is growing! If you are interested in joining the lab, see "join us" above! 
