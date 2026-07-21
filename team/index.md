@@ -23,6 +23,6 @@ Our lab is growing! Interested in joining us? Click here for more info!
 
 {% include section.html %}
 
-{% include list.html data="pets" component="portrait" %}
+{% include list.html data="pets" component="portrait" clickable=false%}
 
 
