@@ -19,5 +19,6 @@
 <p class="p1"><span class="s1">{% endfor %}</span></p>
 <p class="p1"><span class="s1">{% endcapture %} {% include float.html content=floatcontent %} {{ content }} {% assign aliases = page.aliases | default: page.name | default: page.title | join: "," | split: "," | array_filter %} {% capture search -%} publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %} {%- endcapture %}</span></p>
 <p class="p2"><span class="s2"><a href="file:///Users/georgiasquyres/Documents/GitHub/squyreslab.org/_layouts/%7B%7B%20search%20%7C%20relative_url%20%7C%20uri_escape%20%7D%7D">Search for {{ page.name | default: page.title }}'s papers on the Publications page</a></span></p>
+<p class="p1"><span class="s1">{% capture search -%} blog/?search={{ page.name }} {%- endcapture %}</span></p>
 </body>
 </html>
