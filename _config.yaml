@@ -31,7 +31,7 @@ defaults:
   - scope:
       type: "pets"
     values:
-      layout: default
+      layout: pet
   # markdown files in /_posts
   - scope:
       type: "posts"
@@ -41,6 +41,9 @@ defaults:
 collections:
   # generate page for each member
   members:
+    output: true
+  # and for pets
+  pets:
     output: true
   # generate page for each post
   posts:
