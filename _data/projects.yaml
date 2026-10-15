@@ -1,47 +1,17 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Cell death and eDNA in biofilms
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  link: https://www.pnas.org/doi/abs/10.1073/pnas.2514210122
+  description: Our recent paper about patterning of cell lysis during biofilm development
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Biofilms as more than the sum of their parts
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
+  link: https://www.sciencedirect.com/science/article/pii/S1369527424001139
+  description: Our essay about tricky questions in biofilm development
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: A brief history of slime
+  group: featured
+  image: images/vox_biofilm.png
+  link: https://www.vox.com/ad/467542/biology-slime-antibiotics-biofilm
+  description: A short video about Georgia’s postdoc and microbial slimes
