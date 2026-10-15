@@ -5,7 +5,7 @@ role: phd
 aliases:
   - Dilan Sakinci
 links:
-  e-mail: dilan.sakinci@embl.de
+  email: dilan.sakinci@embl.de
 
 ---
 

@@ -7,7 +7,7 @@ aliases:
   - Georgia R. Squyres
   - Georgia R Squyres
 links:
-  e-mail: georgia.squyres@embl.de
+  email: georgia.squyres@embl.de
   GitHub: https://github.com/GeorgiaSquyres/
 ---
 

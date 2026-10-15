@@ -7,15 +7,15 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is in the [MSB department](https://www.embl.org/research/units/molecular-systems-biology/) at the [EMBL](https://www.embl.org/) site in [Heidelberg, Germany](https://www.embl.org/sites/heidelberg/). The EMBL is a hub for interdisciplinary, collaborative molecular biology in Europe, situated in Heidelberg, a romantic and academic city in southwestern Germany. 
+Our lab is in the [MSB Unit](https://www.embl.org/research/units/molecular-systems-biology/) at the [EMBL](https://www.embl.org/) site in [Heidelberg, Germany](https://www.embl.org/sites/heidelberg/). The EMBL is a hub for interdisciplinary, collaborative molecular biology in Europe, situated in Heidelberg, a romantic and academic city in southwestern Germany. 
 
 Check out our [group page at EMBL](https://www.embl.org/groups/squyres/), and click below to visit us or get in touch! 
 
 {%
   include button.html
   type="email"
-  text="squyres@caltech.edu"
-  link="squyres@caltech.edu"
+  text="E-Mail"
+  link="georgia.squyres@embl.de"
 %}
 
 {%
@@ -41,7 +41,7 @@ Check out our [group page at EMBL](https://www.embl.org/groups/squyres/), and cl
 
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/Heidelberg.jpg"
   caption="Come visit us in lovely Heidelberg!"
 %}
 
