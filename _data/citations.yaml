@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1073/pnas.2528666123
+  title: Extracellular matrix chemistry tunes bacterial biofilm metabolism and optimizes
+    fitness
+  authors:
+  - Jinyang Li
+  - Georgia R. Squyres
+  - Kathy Duong
+  - Courtney Reichhardt
+  - Matthew R. Parsek
+  - Dianne K. Newman
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2026-04-06'
+  link: https://doi.org/hcntjw
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.01.12.697931
   title: Starvation enhances bacterial survival through drying and rewetting at the
     single cell level
@@ -14,19 +30,6 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1073/pnas.2514210122
-  title: "Single-cell lysis patterns morphogenesis of eDNA in the matrix of\n    \
-    \        <i>Pseudomonas aeruginosa</i>\n            biofilms"
-  authors:
-  - Georgia R. Squyres
-  - Dianne K. Newman
-  publisher: Proceedings of the National Academy of Sciences
-  date: '2025-10-06'
-  link: https://doi.org/g97b7n
-  orcid: 0000-0002-8717-2897
-  plugin: sources.py
-  file: sources.yaml
-  image: https://divisions-prod-assets.resources.caltech.edu/root/images/Biofilm-400x400-p12-c08.width-450.gif
 - id: doi:10.1101/2025.09.18.677115
   title: Extracellular matrix chemistry tunes bacterial biofilm metabolism and optimizes
     fitness
@@ -43,6 +46,19 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1073/pnas.2514210122
+  title: "Single-cell lysis patterns morphogenesis of eDNA in the matrix of\n    \
+    \                <i>Pseudomonas aeruginosa</i>\n                    biofilms"
+  authors:
+  - Georgia R. Squyres
+  - Dianne K. Newman
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2025-10-06'
+  link: https://doi.org/g97b7n
+  orcid: 0000-0002-8717-2897
+  plugin: sources.py
+  file: sources.yaml
+  image: https://divisions-prod-assets.resources.caltech.edu/root/images/Biofilm-400x400-p12-c08.width-450.gif
 - id: doi:10.1101/2025.06.09.658746
   title: "SpoIIE drives asymmetric cell division in\n                  <i>B. subtilis</i>\n\
     \                  by sequential modulation of the cytokinesis machinery"
@@ -90,6 +106,18 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2024.10.13.618105
+  title: Real-time high-resolution microscopy reveals how single-cell lysis shapes
+    biofilm matrix morphogenesis
+  authors:
+  - Georgia R. Squyres
+  - Dianne K. Newman
+  publisher: openRxiv
+  date: '2024-10-14'
+  link: https://doi.org/hcntjx
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41564-023-01333-x
   title: Mycobacterial nucleoid-associated protein Lsr2 is required for productive
     mycobacteriophage infection
@@ -113,6 +141,25 @@
   publisher: Nature Microbiology
   date: '2023-02-23'
   link: https://doi.org/grv9bg
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.06.29.547026
+  title: "Processive movement of\n                  <i>Staphylococcus aureus</i>\n\
+    \                  essential septal\n                    peptidoglycan synthases\
+    \ is independent of FtsZ treadmilling and drives cell\n                    constriction"
+  authors:
+  - "Simon Sch\xE4per"
+  - "Ant\xF3nio D. Brito"
+  - Bruno M. Saraiva
+  - Georgia R. Squyres
+  - Matthew J. Holmes
+  - Ethan C. Garner
+  - Zach Hensel
+  - Ricardo Henriques
+  publisher: openRxiv
+  date: '2023-06-29'
+  link: https://doi.org/hcntjz
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
@@ -174,6 +221,35 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2020.06.30.180737
+  title: 'Dynamics of bacterial cell division: Z ring condensation is essential for
+    cytokinesis'
+  authors:
+  - Georgia R. Squyres
+  - Matthew J. Holmes
+  - Sarah R. Barger
+  - Betheney R. Pennycook
+  - Joel Ryan
+  - Victoria T. Yan
+  - Ethan C. Garner
+  publisher: openRxiv
+  date: '2020-07-01'
+  link: https://doi.org/ghg8j4
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aba6311
+  title: "Erratum for the Report: \u201CTreadmilling by FtsZ filaments drives peptidoglycan\
+    \ synthesis and bacterial cell division\u201D by A. W. Bisson-Filho, Y.-P. Hsu,\
+    \ G. R. Squyres, E. Kuru, F. Wu, C. Jukes, Y. Sun, C. Dekker, S. Holden, M. S.\
+    \ VanNieuwenhze, Y. V. Brun, E. C. Garner"
+  authors: []
+  publisher: Science
+  date: '2020-01-17'
+  link: https://doi.org/hcntj2
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1371/journal.pgen.1007726
   title: A central role for PBP2 in the activation of peptidoglycan polymerization
     by the bacterial cell elongation machinery
@@ -194,6 +270,29 @@
   publisher: PLOS Genetics
   date: '2018-10-18'
   link: https://doi.org/gfftm2
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/359208
+  title: An activation pathway governs cell wall polymerization by a bacterial morphogenic
+    machine
+  authors:
+  - Patricia D. A. Rohs
+  - Jackson Buss
+  - Sue Sim
+  - Georgia Squyres
+  - Veerasak Srisuknimit
+  - Mandy Smith
+  - Hongbaek Cho
+  - Megan Sjodt
+  - Andrew C. Kruse
+  - Ethan Garner
+  - Suzanne Walker
+  - Daniel Kahne
+  - Thomas G. Bernhardt
+  publisher: openRxiv
+  date: '2018-06-29'
+  link: https://doi.org/gfb8tp
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
