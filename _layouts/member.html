@@ -6,17 +6,26 @@ layout: default
 
 {% include portrait.html lookup=page.slug %}
 
-{% endcapture %}
+<div style="clear: both; padding-top: 0.5em;">
+  {% assign email = page.links.email %}
+  {% if email %}
+    {% include button.html type="email" link=email text="Click to e-mail" style="bare" %}
+  {% endif %}
+</div>
 
-{% include float.html content=floatcontent %}
-
-<div class="member-links">
+<div style="clear: both;">
   {% for link in page.links %}
     {% assign key = link[0] %}
     {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}
-    <br>
+    {% unless key == "email" %}
+      {% include button.html type=key link=value style="bare" %}
+      <br>
+    {% endunless %}
   {% endfor %}
 </div>
+
+{% endcapture %}
+
+{% include float.html content=floatcontent %}
 
 {{ content }}
