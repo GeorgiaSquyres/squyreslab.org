@@ -1,14 +1,14 @@
 # site properties and page defaults
 title: Squyres Lab
 subtitle: 
-description: Coming soon!
+description: Phenotypic patterning and molecular bacteriology in biofilms
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: squyres@caltech.edu
+  email: georgia.squyres@embl.de
   orcid: 0000-0002-8717-2897
   google-scholar: JLyGItIAAAAJ
   github: GeorgiaSquyres

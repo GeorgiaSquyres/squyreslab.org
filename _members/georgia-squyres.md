@@ -7,7 +7,7 @@ aliases:
   - Georgia R. Squyres
   - Georgia R Squyres
 links:
-  e-mail: squyres@caltech.edu
+  e-mail: georgia.squyres@embl.de
   GitHub: https://github.com/GeorgiaSquyres/
 ---
 
