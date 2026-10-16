@@ -1,5 +1,6 @@
 ---
 ---
+{% include section.html dark=true %}
 
 # The Squyres Lab
 
