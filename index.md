@@ -5,20 +5,18 @@
 
 We use high-resolution live imaging, quantitative analysis, microfluidics, molecular genetics, mathematical modelling, and more to understand how bacteria build biofilms, and how biofilms shape bacteria.
 
-Under construction - come back soon!
-
 {% include section.html %}
 
 ## Highlights
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Learn about our research interests and ongoing projects in the group.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="Research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/squyres-group-video1.gif"
   link="research"
   title="Our Research"
   text=text
@@ -36,12 +34,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Check out our publications.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="publications"
+  text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -52,8 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="team"
+  title="Our Team"
   flip=true
   style="bare"
   text=text
@@ -61,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet our microbial community!
 
 {%
   include button.html
@@ -76,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/EMBL-Heidelberg.jpg"
   link="team"
   title="Our Team"
   text=text
