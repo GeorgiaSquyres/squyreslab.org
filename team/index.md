@@ -5,7 +5,9 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Lab Members
+{% include section.html background="images/background.jpg" dark=true %}
+
+# Lab Members
 
 {% include section.html %}
 
@@ -19,7 +21,7 @@ Our lab is growing! Interested in joining us? Click here for more info!
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-# {% include icon.html icon="fa-solid fa-cat" %}Our Pets
+# Our Pets
 
 {% include section.html %}
 
