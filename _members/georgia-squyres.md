@@ -1,6 +1,6 @@
 ---
 name: Georgia Squyres
-image: images/headshots/Squyres.png
+image: images/headshots/Squyres.jpg
 role: principal-investigator
 aliases:
   - Georgia Squyres
