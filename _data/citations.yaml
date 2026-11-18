@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1128/mbio.01903-26
+  title: Dynamic and distinct physiological responses by a soil bacterium promote
+    survival along a desiccation continuum
+  authors:
+  - Jarek V. Kwiecinski
+  - Georgia R. Squyres
+  - Dani Or
+  - Dianne K. Newman
+  publisher: mBio
+  date: '2026-10-14'
+  link: https://doi.org/hcs5kt
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.2528666123
   title: Extracellular matrix chemistry tunes bacterial biofilm metabolism and optimizes
     fitness
@@ -163,6 +177,26 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2021.02.19.432053
+  title: Designing efficient genetic code expansion in Bacillus subtilis to gain biological
+    insights
+  authors:
+  - Devon A. Stork
+  - Georgia R. Squyres
+  - Erkin Kuru
+  - Katarzyna A. Gromek
+  - Jonathan Rittichier
+  - Aditya Jog
+  - Briana M. Burton
+  - George M. Church
+  - Ethan C. Garner
+  - Aditya M. Kunjapur
+  publisher: openRxiv
+  date: '2021-02-19'
+  link: https://doi.org/hcs5kv
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41467-021-25691-4
   title: Designing efficient genetic code expansion in Bacillus subtilis to gain biological
     insights
@@ -238,38 +272,25 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1126/science.aba6311
-  title: "Erratum for the Report: \u201CTreadmilling by FtsZ filaments drives peptidoglycan\
-    \ synthesis and bacterial cell division\u201D by A. W. Bisson-Filho, Y.-P. Hsu,\
-    \ G. R. Squyres, E. Kuru, F. Wu, C. Jukes, Y. Sun, C. Dekker, S. Holden, M. S.\
-    \ VanNieuwenhze, Y. V. Brun, E. C. Garner"
-  authors: []
-  publisher: Science
-  date: '2020-01-17'
-  link: https://doi.org/hcntj2
-  orcid: 0000-0002-8717-2897
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pgen.1007726
-  title: A central role for PBP2 in the activation of peptidoglycan polymerization
-    by the bacterial cell elongation machinery
+- id: doi:10.1101/857813
+  title: "Treadmilling FtsZ polymers drive the directional movement of sPG-synthesis\
+    \ enzymes\n                  <i>via</i>\n                  a Brownian ratchet\
+    \ mechanism"
   authors:
-  - Patricia D. A. Rohs
-  - Jackson Buss
-  - Sue I. Sim
+  - Joshua W. McCausland
+  - Xinxing Yang
   - Georgia R. Squyres
-  - Veerasak Srisuknimit
-  - Mandy Smith
-  - Hongbaek Cho
-  - Megan Sjodt
-  - Andrew C. Kruse
+  - Zhixin Lyu
+  - Kevin E. Bruce
+  - Melissa M. Lamanna
+  - "Bill S\xF6derstr\xF6m"
   - Ethan C. Garner
-  - Suzanne Walker
-  - Daniel E. Kahne
-  - Thomas G. Bernhardt
-  publisher: PLOS Genetics
-  date: '2018-10-18'
-  link: https://doi.org/gfftm2
+  - Malcolm E. Winkler
+  - Jie Xiao
+  - Jian Liu
+  publisher: openRxiv
+  date: '2019-11-28'
+  link: https://doi.org/gkvdqh
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
@@ -296,6 +317,29 @@
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1371/journal.pgen.1007726
+  title: A central role for PBP2 in the activation of peptidoglycan polymerization
+    by the bacterial cell elongation machinery
+  authors:
+  - Patricia D. A. Rohs
+  - Jackson Buss
+  - Sue I. Sim
+  - Georgia R. Squyres
+  - Veerasak Srisuknimit
+  - Mandy Smith
+  - Hongbaek Cho
+  - Megan Sjodt
+  - Andrew C. Kruse
+  - Ethan C. Garner
+  - Suzanne Walker
+  - Daniel E. Kahne
+  - Thomas G. Bernhardt
+  publisher: PLOS Genetics
+  date: '2018-10-18'
+  link: https://doi.org/gfftm2
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1126/science.aak9973
   title: Treadmilling by FtsZ filaments drives peptidoglycan synthesis and bacterial
     cell division
@@ -315,6 +359,27 @@
   publisher: Science
   date: '2017-02-17'
   link: https://doi.org/f9tvj4
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/077560
+  title: Treadmilling by FtsZ filaments drives peptidoglycan synthesis and bacterial
+    cell division
+  authors:
+  - Alexandre W. Bisson Filho
+  - Yen-Pang Hsu
+  - Georgia R. Squyres
+  - Erkin Kuru
+  - Fabai Wu
+  - Calum Jukes
+  - Cees Dekker
+  - Seamus Holden
+  - Michael S. VanNieuwenhze
+  - Yves V. Brun
+  - Ethan C. Garner
+  publisher: openRxiv
+  date: '2016-09-26'
+  link: https://doi.org/gkwv5d
   orcid: 0000-0002-8717-2897
   plugin: orcid.py
   file: orcid.yaml
