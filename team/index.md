@@ -17,8 +17,6 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'masters'" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
 
-Our lab is growing! Interested in joining us? Click here for more info! 
-
 {% include section.html background="images/background.jpg" dark=true %}
 
 # Our Pets
