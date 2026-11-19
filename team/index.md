@@ -33,16 +33,16 @@ nav:
 
 <style>
 .lab-photo-gallery {
-  columns: 4;
-  column-gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px 12px;
   margin: 1rem 0 2rem;
+  align-items: start;
 }
 
 .lab-photo-gallery figure {
-  display: inline-block;
-  width: 100%;
-  margin: 0 0 12px;
-  break-inside: avoid;
+  margin: 0;
+  min-width: 0;
 }
 
 .lab-photo-gallery img {
@@ -56,23 +56,18 @@ nav:
   font-size: 0.85em;
   line-height: 1.35;
   margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 @media (max-width: 900px) {
   .lab-photo-gallery {
-    columns: 3;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 600px) {
   .lab-photo-gallery {
-    columns: 2;
-    column-gap: 8px;
-  }
-
-  .lab-photo-gallery figure {
-    margin-bottom: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 8px;
   }
 }
 </style>

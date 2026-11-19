@@ -23,7 +23,7 @@ Learn about our research interests and ongoing projects in the group.
 
 {%
   include feature.html
-  image="images/squyres-group-video1.gif"
+  image="images/research-photos/microcolony.gif"
   link="research"
   title="Our Research"
   text=text
@@ -46,7 +46,7 @@ Check out our publications.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research-photos/cell-lysis.gif"
   link="team"
   title="Our Publications"
   flip=true
@@ -71,7 +71,7 @@ Meet our microbial community!
 
 {%
   include feature.html
-  image="images/EMBL-Heidelberg.jpg"
+  image="images/research-photos/fm4-64.gif"
   link="team"
   title="Our Team"
   text=text
