@@ -31,8 +31,6 @@ nav:
 
 {% include section.html %}
 
-{% include section.html background="images/background.jpg" dark=true %}
-
 <style>
 .lab-photo-gallery {
   columns: 4;
