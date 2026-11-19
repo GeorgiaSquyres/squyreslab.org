@@ -5,7 +5,7 @@ nav:
   tooltip: About our team
 ---
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/backgrounds/twitching.gif" dark=true %}
 
 # Lab Members
 
@@ -34,7 +34,7 @@ nav:
 <style>
 .lab-photo-gallery {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, max-content);
   gap: 16px 12px;
   margin: 1rem 0 2rem;
   align-items: start;
@@ -47,8 +47,10 @@ nav:
 
 .lab-photo-gallery img {
   display: block;
-  width: 100%;
-  height: auto;
+  height: 180px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
   border-radius: 2px;
 }
 
@@ -56,18 +58,30 @@ nav:
   font-size: 0.85em;
   line-height: 1.35;
   margin-top: 5px;
+  max-width: 100%;
 }
 
+/* Tablet */
 @media (max-width: 900px) {
   .lab-photo-gallery {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, max-content);
   }
 }
 
+/* Mobile */
 @media (max-width: 600px) {
   .lab-photo-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px 8px;
+  }
+
+  .lab-photo-gallery img {
+    height: 140px;
+    max-width: 100%;
+  }
+
+  .lab-photo-gallery figure {
+    min-width: 0;
   }
 }
 </style>
