@@ -33,16 +33,18 @@ nav:
 
 <style>
 .lab-photo-gallery {
-  display: grid;
-  grid-template-columns: repeat(4, max-content);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 16px 12px;
   margin: 1rem 0 2rem;
-  align-items: start;
 }
 
 .lab-photo-gallery figure {
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: 100%;
   margin: 0;
-  min-width: 0;
 }
 
 .lab-photo-gallery img {
@@ -55,33 +57,23 @@ nav:
 }
 
 .lab-photo-gallery figcaption {
+  display: block;
+  width: 100%;
   font-size: 0.85em;
   line-height: 1.35;
   margin-top: 5px;
-  max-width: 100%;
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-  .lab-photo-gallery {
-    grid-template-columns: repeat(3, max-content);
-  }
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 /* Mobile */
 @media (max-width: 600px) {
   .lab-photo-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px 8px;
   }
 
   .lab-photo-gallery img {
     height: 140px;
-    max-width: 100%;
-  }
-
-  .lab-photo-gallery figure {
-    min-width: 0;
   }
 }
 </style>
