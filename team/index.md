@@ -32,9 +32,6 @@ nav:
 {% include section.html %}
 
 {% include section.html background="images/background.jpg" dark=true %}
-# Lab Photos
-
-{% include section.html %}
 
 <style>
 .lab-photo-gallery {
