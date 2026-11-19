@@ -5,7 +5,7 @@ nav:
   tooltip: About our team
 ---
 
-{% include section.html background="images/backgrounds/twitching.gif" dark=true %}
+{% include section.html background="images/background.jpg" dark=true %}
 
 # Lab Members
 
