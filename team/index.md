@@ -31,53 +31,53 @@ nav:
 
 {% include section.html %}
 
+{% include section.html background="images/background.jpg" dark=true %}
+# Lab Photos
+
+{% include section.html %}
+
 <style>
 .lab-photo-gallery {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px 14px;
+  columns: 4;
+  column-gap: 12px;
   margin: 1rem 0 2rem;
-  width: 100%;
 }
 
 .lab-photo-gallery figure {
-  display: block;
-  flex: 0 0 auto;
-  width: min-content;
-  max-width: 100%;
-  margin: 0;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 12px;
+  break-inside: avoid;
 }
 
 .lab-photo-gallery img {
   display: block;
-  height: 220px;
-  width: auto;
-  max-width: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
   border-radius: 2px;
 }
 
 .lab-photo-gallery figcaption {
-  display: block;
-  width: 100%;
-  min-width: 0;
-  margin-top: 6px;
   font-size: 0.85em;
   line-height: 1.35;
-  white-space: normal;
-  overflow-wrap: anywhere;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-/* Mobile */
+@media (max-width: 900px) {
+  .lab-photo-gallery {
+    columns: 3;
+  }
+}
+
 @media (max-width: 600px) {
   .lab-photo-gallery {
-    gap: 14px 10px;
+    columns: 2;
+    column-gap: 8px;
   }
 
-  .lab-photo-gallery img {
-    height: 160px;
+  .lab-photo-gallery figure {
+    margin-bottom: 8px;
   }
 }
 </style>
