@@ -34,22 +34,25 @@ nav:
 <style>
 .lab-photo-gallery {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 16px 12px;
+  gap: 16px 14px;
   margin: 1rem 0 2rem;
+  width: 100%;
 }
 
 .lab-photo-gallery figure {
+  display: block;
   flex: 0 0 auto;
-  width: fit-content;
+  width: min-content;
   max-width: 100%;
   margin: 0;
 }
 
 .lab-photo-gallery img {
   display: block;
-  height: 180px;
+  height: 220px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -59,21 +62,22 @@ nav:
 .lab-photo-gallery figcaption {
   display: block;
   width: 100%;
+  min-width: 0;
+  margin-top: 6px;
   font-size: 0.85em;
   line-height: 1.35;
-  margin-top: 5px;
   white-space: normal;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* Mobile */
 @media (max-width: 600px) {
   .lab-photo-gallery {
-    gap: 12px 8px;
+    gap: 14px 10px;
   }
 
   .lab-photo-gallery img {
-    height: 140px;
+    height: 160px;
   }
 }
 </style>
