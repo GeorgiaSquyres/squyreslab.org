@@ -83,7 +83,7 @@ nav:
     <img src="/images/group-photos/Day_One.jpeg"
          alt="Week one!"
          loading="lazy">
-    <figcaption>Our first week at EMBL! Don't worry, Dilan has her own office now...</figcaption>
+    <figcaption>Our first week at EMBL! Don't worry, Dilan has her own desk now...</figcaption>
   </figure>
 
   <figure>
