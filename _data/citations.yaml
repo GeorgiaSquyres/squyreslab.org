@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.26434/chemrxiv.15010647/v1
+  title: An artificial macrophage reveals the impact of nitric oxide microenvironments
+    on bacterial viability
+  authors:
+  - Haiyuan Zou
+  - Ziqi Ding
+  - Sarah L. Weisflog
+  - Georgia R. Squyres
+  - Yifan Gao
+  - Yisi Chen
+  - Haley L. Marks
+  - Dianne K. Newman
+  - Chong Liu
+  publisher: American Chemical Society (ACS)
+  date: '2026-10-19'
+  link: https://doi.org/hctg8m
+  orcid: 0000-0002-8717-2897
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1128/mbio.01903-26
   title: Dynamic and distinct physiological responses by a soil bacterium promote
     survival along a desiccation continuum
